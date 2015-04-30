@@ -26,10 +26,16 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/lucasbrunialti'),
+         ('Twitter', 'https://twitter.com/LucasBrunialti'),
+         #('Linkedin', 'https://linkedin.com/in/lucasbrunialti'),
+         )
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 10
+
+DISQUS_SITENAME ='lucasbrunialti.github.io'
+
+THEME = 'theme'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
