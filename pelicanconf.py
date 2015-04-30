@@ -33,7 +33,7 @@ SOCIAL = (('Github', 'https://github.com/lucasbrunialti'),
 
 DEFAULT_PAGINATION = 10
 
-DISQUS_SITENAME ='lucasbrunialti.github.io'
+DISQUS_SITENAME ='lucasbrunialti'
 
 THEME = 'theme'
 
