@@ -33,7 +33,9 @@ SOCIAL = (('Github', 'https://github.com/lucasbrunialti'),
 
 DEFAULT_PAGINATION = 10
 
-DISQUS_SITENAME ='lucasbrunialti'
+DISQUS_SITENAME = u'lucasbrunialti'
+
+GOOGLE_ANALYTICS = u'UA-62552412-1'
 
 THEME = 'theme'
 
