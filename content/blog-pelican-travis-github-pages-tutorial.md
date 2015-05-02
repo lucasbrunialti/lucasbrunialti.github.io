@@ -1,5 +1,5 @@
 Title: Pelican + Travis + Github Pages
-Date: 2015-04-30
+Date: 2015-05-02
 Category: tutorial
 Tags: tutorial, python, blog, pelican, github
 
@@ -129,14 +129,29 @@ script:
 - make github
 ```
 
+Also, to do the trick of publishing the `output` folder in `src` branch to `master` branch, you need to edit the `github` step in the `Makefile`:
+```
+...
+github: publish
+        ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
+        @git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git $(GITHUB_PAGES_BRANCH) > /dev/null
+...
+```
+
 Since travis will push to your repo, it has to authenticate on Github, and you can set it up by generating an [OAuth Token](https://developer.github.com/v3/oauth/) on [Github settings](https://github.com/settings/tokens). Click on `Generate new token` and give the `repo` permission.
 To keep it secret, use the travis app to encrypt it and add the encrypted token to your `.travis.yml`:
 ```
 $ brew install ruby # if you don't have ruby installed
-$ gem install travis -v 1.7.6 --no-rdoc --no-ri
+$ gem install travis -v 1.7.6 --no-rdoc --no-ri # install travis command line
 $ travis encrypt GH_TOKEN=<generated_token> --add
 ```
 
+Finally, push the source and watch the magic at `https://travis-ci.org/<profile_name>/<profile_name>.github.io`. If you got everything right, your blog will be at `http://<profile_name>.github.io/`.
+```
+$ git add Makefile && git commit -m "trick to publish html (src -> master)"
+$ git add .travis.yml && git commit -m "travis setup"
+$ git push origin src
+```
 
+That's it folks! Stay tuned for more cs, programming, hacking and data science content!
 
-Stay tuned for more cs, programming, hacking and data science content!
