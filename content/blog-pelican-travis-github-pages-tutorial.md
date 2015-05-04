@@ -28,7 +28,6 @@ As pelican is a python project, it requires the installation of pip (Python Pack
 ```
 $ sudo easy_install pip
 $ pip install virtualenv
-$ pip install pelican markdown
 ```
 
 Setup a virtualenv for your pelican:
@@ -39,7 +38,7 @@ $ source ~/virtualenvs/pelican/bin/activate
 
 Now, install pelican:
 ```
-$ pip install pelican
+$ pip install pelican markdown
 ```
 
 Now it is possible to list the dependencies of your blog:
