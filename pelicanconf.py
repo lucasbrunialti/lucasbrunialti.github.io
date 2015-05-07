@@ -31,6 +31,9 @@ SOCIAL = (('Github', 'https://github.com/lucasbrunialti'),
          #('Linkedin', 'https://linkedin.com/in/lucasbrunialti'),
          )
 
+PLUGIN_PATHS = ['plugins/pelican-plugins/']
+PLUGINS = ['latex']
+
 DEFAULT_PAGINATION = 10
 
 DISQUS_SITENAME = u'lucasbrunialti'
