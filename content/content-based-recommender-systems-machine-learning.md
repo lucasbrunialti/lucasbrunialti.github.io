@@ -6,7 +6,7 @@ Tags: review, machine learning, recommender systems, content-based recommender s
 Some days ago I presented a paper (systematic review) in SBSI 2015 conference (XI Brazilian Symposium on Information System).
 
 ### Considerations
-- First I want to thanks the staff from SBSI 2015 (Simpósio Brasileiro de Sistemas de Informação - Brazillian Symposium of Information Systems) and SBC (Sociedade Brasileira de Computação - Brazillian Society of Computation) for having my paper published. The bibtex reference is the following:
+- First I want to thanks the staff from [SBSI 2015](http://www.portal.inf.ufg.br/sbsi2015/) (Simpósio Brasileiro de Sistemas de Informação - Brazillian Symposium of Information Systems) and SBC (Sociedade Brasileira de Computação - Brazillian Society of Computation) for having my paper published. The bibtex reference is the following:
 - Also thanks to my advisor Professor Sarajane Marques Peres, my co-advisor Professor Valdinei Freire and professor Clodoaldo Lima for helping in the review and in the paper.
 
 Citing:
