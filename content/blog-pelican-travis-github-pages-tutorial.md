@@ -38,7 +38,7 @@ $ source ~/virtualenvs/pelican/bin/activate
 
 Now, install pelican:
 ```
-$ pip install pelican markdown
+$ pip install pelican markdown ghp-import
 ```
 
 Now it is possible to list the dependencies of your blog:
