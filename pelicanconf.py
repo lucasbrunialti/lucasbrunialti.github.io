@@ -28,11 +28,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('Github', 'https://github.com/lucasbrunialti'),
          ('Twitter', 'https://twitter.com/LucasBrunialti'),
-         #('Linkedin', 'https://linkedin.com/in/lucasbrunialti'),
+         ('Linkedin', 'https://linkedin.com/in/lucasbrunialti'),
          )
 
-PLUGIN_PATHS = ['plugins/pelican-plugins/']
-PLUGINS = ['latex']
+PLUGIN_PATHS = ["plugins/pelican-plugins/"]
+PLUGINS = ['render_math']
 
 DEFAULT_PAGINATION = 10
 

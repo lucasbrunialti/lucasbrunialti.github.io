@@ -1,5 +1,5 @@
 Title: A arte de influenciar pessoas 
-Date: 2020-02-02
+Date: 2021-02-02
 Category: people
 Tags: influencing, management
 
