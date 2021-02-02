@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>lucasbrunialti - how-to</title><link href="/" rel="alternate"></link><link href="/feeds/how-to.atom.xml" rel="self"></link><id>/</id><updated>2016-01-25T00:00:00-02:00</updated><entry><title>How to install Numba on Mac OS X</title><link href="/how-to-install-numba-on-mac-os-x.html" rel="alternate"></link><published>2016-01-25T00:00:00-02:00</published><updated>2016-01-25T00:00:00-02:00</updated><author><name>lucasbrunialti</name></author><id>tag:None,2016-01-25:/how-to-install-numba-on-mac-os-x.html</id><summary type="html">&lt;p&gt;Hello!! I'm here to guide you guys on how to install &lt;a href="http://numba.pydata.org/"&gt;numba&lt;/a&gt; on mac os x. Numba is a tool to speed up python applications with just annotations.&lt;/p&gt;
+&lt;p&gt;It should be easy as &lt;code&gt;pip install numba&lt;/code&gt;, but I don't know why it does not solve all the dependencies, and I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello!! I'm here to guide you guys on how to install &lt;a href="http://numba.pydata.org/"&gt;numba&lt;/a&gt; on mac os x. Numba is a tool to speed up python applications with just annotations.&lt;/p&gt;
+&lt;p&gt;It should be easy as &lt;code&gt;pip install numba&lt;/code&gt;, but I don't know why it does not solve all the dependencies, and I don't know why I spend so much time on it... :/&lt;/p&gt;
+&lt;p&gt;Numba depends on llvm &lt;a href="http://llvm.org/"&gt;llvm&lt;/a&gt;, a umbrella project that includes a bunch of compilers and low-level tools. You can install it with &lt;a href="http://brew.sh/"&gt;Homebrew&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ brew install llvm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then you need to link some env vars with &lt;code&gt;brew link&lt;/code&gt; and create a symbolic link that is necessary to install &lt;a href="http://llvmlite.readthedocs.org/en/latest/"&gt;llvmlite&lt;/a&gt; (a numba dependency).&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ brew link llvm
+$ ln -s /usr/local/Cellar/llvm/&amp;lt;llvm_version&amp;gt;/include/llvm/Config/llvm-config.h config.h
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can check the llvm version installed with &lt;code&gt;brew info llvm&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, we can install numba. Remember to unlink llvm vars, so that it don't mess up with os x llvm.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ pip install numba
+$ brew unlink llvm
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;.o/&lt;/p&gt;</content><category term="how-to"></category><category term="how-to"></category><category term="osx"></category><category term="python"></category><category term="numba"></category><category term="llvm"></category></entry></feed>
