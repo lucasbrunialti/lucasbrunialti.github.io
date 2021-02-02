@@ -21,7 +21,9 @@ A técnica de "nemawashi" é super eficaz, apesar de não ser super eficiente, p
 
 A ideia é simplesmente você ir conversando com as pessoas, se conectando e arranjando seguidores da sua ideia.  Você deve principalmente fazer essas pessoas se **conectar emocionalmente** com o problema que você acredita que deve ser resolvido.
 
-A fase 2 é começar a construir o plano, e ir apresentando ainda individualmente e pegando feedbacks, iterando na sua ideia.  Para assim, quando você tiver na mesa com os tomadores de decisão, a coisa sair da forma que você esperava.  Os stakeholders já vão estar tão envolvidos no plano, que eles vão apoiar a execução do mesmo.
+A fase 2 é começar a construir o plano, e ir apresentando ainda individualmente e pegando feedbacks, iterando na sua ideia.  Por isso disse ***group brainfuck*** com algumas alterações no caminho, pq na realidade você está absorvendo no seu plano o feedback das pessoas.
+
+Por fim, quando você tiver na mesa com os tomadores de decisão, a coisa sair da forma que você esperava.  Os stakeholders já vão estar tão envolvidos no plano, que eles vão apoiar a execução do mesmo.
 
 ***Just like magic!*** ✨
 
@@ -33,8 +35,8 @@ Dá próxima vez que quiser mudar algo no seu time ou na organização: Nemawash
 
 ----
 #### Refs
-- https://en.wikipedia.org/wiki/Nemawashi
-- https://staffeng.com/guides/present-to-executives
-- https://www.platohq.com/resources/achieving-alignment-and-efficiency-through-a-technical-strategy-2008964066
-- https://www.slideshare.net/NigelThurlow/nemawashi-44012407 
+- [https://en.wikipedia.org/wiki/Nemawashi](https://en.wikipedia.org/wiki/Nemawashi)
+- [https://staffeng.com/guides/present-to-executives](https://staffeng.com/guides/present-to-executives)
+- [https://www.platohq.com/resources/achieving-alignment-and-efficiency-through-a-technical-strategy-2008964066](https://www.platohq.com/resources/achieving-alignment-and-efficiency-through-a-technical-strategy-2008964066)
+- [https://www.slideshare.net/NigelThurlow/nemawashi-44012407](https://www.slideshare.net/NigelThurlow/nemawashi-44012407)
 
